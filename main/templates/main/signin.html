@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SEEKJOBS - THE EASIEST WAY TO GET YOUR NEW JOB</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/mdb.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/mdb.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/datepicker.css' %}">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="{% static '/fonts/line-icons.css' %}">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/slicknav.css' %}">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/nivo-lightbox.css' %}">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/animate.css' %}">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/responsive.css' %}">
+    <link href="{% static '/css/fontawesome/css/all.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/css/fontawesome/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- Header Area wrapper Starts -->
+<header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top  top-nav-collapse ">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span> <span class="icon-menu"></span> <span
+                        class="icon-menu"></span> <span class="icon-menu"></span></button>
+                <a href="{% url 'main:homepage' %}" class="navbar-brand"><img src="{% static '/img/logo.png' %}" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item active"><a class="nav-link" href="{% url 'main:homepage' %}"> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:jobs' %}"> jobs </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:companies' %}"> companies </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:recommendations' %}">
+                        recommendations </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link nav-btn" href="#"><i class="fas fa-plus-circle"></i> post a
+                        job </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:register' %}"> <i class="fa fa-key"></i>
+                        register </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:login' %}"> <i
+                            class="fa fa-sign-in-alt"></i> Login </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+            <li><a class="page-scroll" href="#header-wrap">Home</a></li>
+            <li><a class="page-scroll" href="#">Jobs</a></li>
+            <li><a class="page-scroll" href="#">Companies</a></li>
+            <li><a class="page-scroll" href="#">CV Models</a></li>
+            <li><a class="page-scroll" href="#">Post A Job</a></li>
+            <li><a class="page-scroll" href="#">Login/register</a></li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Main Carousel Section Start -->
+    <section style="padding-top: 100px; padding-bottom: 50px;">
+
+        <h3 class="fadeInUp wow text-center" data-wow-delay=".6s"><strong>Registration form </strong></h3>
+
+    </section>
+    <section class="section-padding">
+
+
+        <!-- Material form register -->
+        <div class="card container w-50">
+
+            <h5 class="card-header main-color white-text text-center py-4">
+                <strong>Sign up</strong>
+            </h5>
+
+            <!--Card content-->
+            <div class="card-body px-lg-5 pt-0">
+
+                <!-- Form -->
+                <form class="text-center" style="color: #757575;" action="register" method="POST">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="col">
+                            <!-- First name -->
+                            <div class="md-form">
+                                <input type="text" id="materialRegisterFormFirstName" class="form-control"
+                                       name="first_name">
+                                <label for="materialRegisterFormFirstName">First name</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!-- Last name -->
+                            <div class="md-form">
+                                <input type="text" id="materialRegisterFormLastName" class="form-control"
+                                       name="last_name">
+                                <label for="materialRegisterFormLastName">Last name</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E-mail -->
+                    <div class="md-form mt-0">
+                        <input type="email" id="materialRegisterFormEmail" class="form-control" name="email">
+                        <label for="materialRegisterFormEmail">E-mail</label>
+                    </div>
+                    <!-- username -->
+                    <div class="md-form">
+                        <input type="text" id="materialRegisterFormUsername" class="form-control"
+                               aria-describedby="materialRegisterFormPhoneHelpBlock" name="username">
+                        <label for="materialRegisterFormPhone">username</label>
+
+                        </small>
+                    </div>
+                    <!-- Password -->
+                    <div class="md-form">
+                        <input type="password" id="materialRegisterFormPassword" class="form-control"
+                               aria-describedby="materialRegisterFormPasswordHelpBlock" name="password1">
+                        <label for="materialRegisterFormPassword">Password</label>
+                        <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                            At least 8 characters and 1 digit
+                        </small>
+                    </div>
+                    <div class="md-form">
+                        <select class="browser-default custom-select" name="sexe">
+                            <option selected>sexe</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+
+                        </select>
+
+                    </div>
+                    <div class="md-form">
+                        <select class="browser-default custom-select" name="type">
+                            <option selected>you are a</option>
+                            <option value="candidate">job seeker</option>
+                            <option value="recruiter">recruiter</option>
+
+                        </select>
+
+                    </div>
+                    <!--address -->
+                    <div class="md-form mt-0">
+                        <input type="text" class="form-control" name="user_address">
+                        <label for="Address">Address</label>
+                    </div>
+                    <!--address -->
+                    <div class="md-form mt-0">
+                        <input type="text" class="form-control" name="bday">
+                        <label for="bday">date of birth</label>
+                    </div>
+
+
+                    <!-- Sign up button -->
+                    <button class="btn btn-outline-danger btn-rounded btn-block my-4 waves-effect z-depth-0"
+                            type="submit">Sign Up
+                    </button>
+
+                    <!-- Social register -->
+                    <p>or sign up with:</p>
+
+                    <a type="button" class="btn-floating btn-fb btn-sm">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a type="button" class="btn-floating btn-tw btn-sm">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a type="button" class="btn-floating btn-li btn-sm">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a type="button" class="btn-floating btn-git btn-sm">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <hr>
+
+                    <!-- Terms of service -->
+                    <p>By clicking
+                        <em>Sign up</em> you agree to our
+                        <a href="" target="_blank">terms of service</a>
+
+                </form>
+                <!-- Form -->
+
+            </div>
+
+        </div>
+
+        <!-- Material form register -->
+    </section>
+</header>
+
+
+<!-- Footer Section Start -->
+<footer class="footer-area section-padding">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+                <h3><img src="{% static '/img/logo.png' %}" alt=""></h3>
+                <p> Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis
+                    nostrud ncididunt. </p>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">CV Models</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+                <h3>RECENT POSTS</h3>
+                <ul class="image-list">
+                    <li>
+                        <figure class="overlay"><img class="img-fluid" src="{% static '/img/art/a1.jpg' %}" alt="">
+                        </figure>
+                        <div class="post-content">
+                            <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
+                            <div class="meta"><span class="date">October 12, 2018</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="overlay"><img class="img-fluid" src="{% static '/img/art/a2.jpg' %}" alt="">
+                        </figure>
+                        <div class="post-content">
+                            <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
+                            <div class="meta"><span class="date">October 12, 2018</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+                <h3>SUBSCRIBE US</h3>
+                <div class="widget">
+                    <div class="newsletter-wrapper">
+                        <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                            {% csrf_token %}
+                            <div class="form-group is-empty">
+                                <"input type="email" value="" name="Email" class="form-control" id="EMAIL"
+                                placeholder="Your email" required="">
+                                <button type="submit" name="subscribe" id="subscribes" class="btn btn-common sub-btn"><i
+                                        class="lni-pointer"></i></button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.widget -->
+                <div class="widget">
+                    <h5 class="widget-title">FOLLOW US ON</h5>
+                    <ul class="footer-social">
+                        <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
+                        <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="site-info">
+                    <p>© Designed and Developed by <a href="#" rel="nofollow">SEEKJOBS</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Go to Top Link -->
+<a href="#" class="back-to-top"> <i class="lni-chevron-up"></i> </a>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{% static '/js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static '/js/jquery-migrate-3.0.1.js' %}"></script>
+<script src="{% static '/js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+<script src="{% static '/js/jquery.easing.min.js' %}"></script>
+<script src="{% static '/js/wow.js' %}"></script>
+
+<script src="{% static '/js/nivo-lightbox.js' %}"></script>
+<script src="{% static 'js/mdb.min.js' %}"></script>
+<script src="{% static 'js/datepicker.js' %}"></script>
+
+<script src="{% static '/js/form-validator.min.js' %}"></script>
+<script src="{% static '/js/contact-form-script.min.js' %}"></script>
+<script src="{% static '/js/signin.js' %}"></script>
+</body>
+</html>

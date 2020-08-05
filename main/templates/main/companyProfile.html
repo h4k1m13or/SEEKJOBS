@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SEEKJOBS - THE EASIEST WAY TO GET YOUR NEW JOB</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/mdb.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/mdb.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/datepicker.css' %}">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="{% static '/fonts/line-icons.css' %}">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/slicknav.css' %}">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/nivo-lightbox.css' %}">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/animate.css' %}">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/responsive.css' %}">
+    <link href="{% static '/css/fontawesome/css/all.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/css/fontawesome/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<!-- Header Area wrapper Starts -->
+<header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top  scrolling-navbar1 top-nav-collapse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span> <span class="icon-menu"></span> <span
+                        class="icon-menu"></span> <span class="icon-menu"></span></button>
+                <a href="{% url 'main:homepage' %}" class="navbar-brand"><img src="{% static '/img/logo.png' %}"
+                                                                              alt="EWORK"></a></div>
+           <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item active"><a class="nav-link" href="{% url 'main:homepage' %}"> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:jobs' %}"> jobs </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:companies' %}"> companies </a></li>
+                    {% if candidate %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:recommendations' %}">
+                            recommendations </a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link nav-btn" href="{% url 'main:post-a-job' %}"><i class="fas fa-plus-circle"></i>
+                            post a
+                            job </a></li>
+                    {% endif %}
+
+                    {% if request.user.is_anonymous %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:register' %}"> <i class="fa fa-key"></i>register
+                        </a>
+                        </li>
+                    {% endif %}
+                    {% if not request.user.is_anonymous %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:dashboard' %}"> <i class="fa fa-user-tie"> </i>
+                             dashboard </a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:logout' %}"> <i class="fa fa-sign-out-alt"></i>
+                            Logout </a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:login' %}"> <i class="fa fa-sign-in-alt"></i> Login
+                        </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+            <li><a class="page-scrool" href="#header-wrap">Home</a></li>
+            <li><a class="page-scrool" href="#">Jobs</a></li>
+            <li><a class="page-scroll" href="#">Companies</a></li>
+            <li><a class="page-scroll" href="#">CV Models</a></li>
+            <li><a class="page-scroll" href="#">Post A Job</a></li>
+            <li><a class="page-scroll" href="#">Login</a></li>
+            <li><a class="page-scroll" href="/register">register</a></li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+    </nav>
+<section>
+    <div class="row"style="padding-top: 200px;">
+
+    </div>
+</section>
+
+</header>
+<section class="container">
+    <div class="row" style="border:1px solid #dadada; padding: 10px;">
+
+        <div class="col-3 ">
+            <img style=" height: 160px;  width: 160px;  border-radius: 5px; padding: 5px;border: 2px solid #dadada"
+                 src="{% static '/img/test-logo.png' %}">
+        </div>
+        <div class="col-6">
+            <div class="row d-md-block justify-content-center" style="margin-left: -10%">
+                <br>
+                <h3 for="name " class="text-dark ">{{company.company_name }}</h3>
+                <span class="text-dark text-left" href="" style="margin-left: 0%">{{ company.company_tagline}}</span>
+                <br>
+                <br>
+
+                <span class="text-main-color text-muted"><i
+                        class="fas fa-map-marker-alt ">{{ company.company_location }}</i></span>
+            </div>
+        </div>
+        <div class="col-3">
+             <a href="{{ company.company_linkedin }}" target="_blank"><i class="fas fa-linkedin"  > {{ company.company_linkedin }}  </i></a>
+            <br><br>
+            <a href="{{ company.company_website_url }}"><i class="fa fa-weebly" > {{ company.company_website_url }}</i></a>
+            <br>
+            <br>
+            <a href="mailto:{{ company.company_email}}"><i class="fa fa-envelope" > {{ company.company_email}}</i></a>
+            <br>
+            <br>
+            <a ><i class="fa fa-phone text-primary" > {{ company.company_phone}}</i></a>
+        </div>
+    </div>
+
+</section>
+
+<section class="container " style="padding-top: 10px;padding-bottom: 10px;">
+
+    <div class=" row" style="border:1px solid #dadada; padding: 10px;">
+        <br>
+        {{ company.profile_description |safe }}
+
+
+    </div>
+
+
+</section>
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title-header text-center">
+                    <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Latest jobs by {{ company.company_name }}</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- latest jobs item inside for loop -->
+        {% for job in jobs %}
+            <div class="list-group">
+                <a href="job/{{ job.id }}  ">
+                    <div class="card list-group-item list-group-item-action">
+                        <div class="text-dark align-content-lg-start">
+                            <div class="job-post col "><img src="{% static '/img/test-logo.png' %}">
+                                <div class="col-md-3">
+                                    <h5 class="card-title">{{ job.job_title }}</h5>
+                                    <span class="company"> {{ job.job_company.company_name }} </span> <br>
+                                    <span><i class="fas fa-map-marker-alt"></i> {{ job.job_location }}</span></div>
+                                <div class="col-6"></div>
+                                <div class="job-type">
+                                    <div class="row">
+                                        <button type="button"
+                                                class="btn btn-outline-success">  {{ job.type }}</button>
+                                    </div>
+                                    <div class="row"><span class="col">{{ job.whenpublished }}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+    </div>
+    </div>
+</section>
+
+
+<!-- Footer Section Start -->
+<footer class="footer-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">CV Models</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+                <h3>RECENT POSTS</h3>
+                <ul class="image-list">
+                    <li>
+                        <figure class="overlay"><img class="img-fluid" src="{% static '/img/art/a1.jpg' %}" alt="">
+                        </figure>
+                        <div class="post-content">
+                            <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
+                            <div class="meta"><span class="date">October 12, 2018</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="overlay"><img class="img-fluid" src="{% static '/img/art/a2.jpg' %}" alt="">
+                        </figure>
+                        <div class="post-content">
+                            <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
+                            <div class="meta"><span class="date">October 12, 2018</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+                <h3>SUBSCRIBE US</h3>
+                <div class="widget">
+                    <div class="newsletter-wrapper">
+                        <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                            {% csrf_token %}
+                            <div class="form-group is-empty">
+                                <input type="email" value="" name="Email" class="form-control" id="EMAIL"
+                                       placeholder="Your email" required="">
+                                <button type="submit" name="subscribe" id="subscribes" class="btn btn-common sub-btn"><i
+                                        class="lni-pointer"></i></button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.widget -->
+                <div class="widget">
+                    <h5 class="widget-title">FOLLOW US ON</h5>
+                    <ul class="footer-social">
+                        <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
+                        <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="site-info">
+                    <p>© Designed and Developed by <a href="#" rel="nofollow">SEEKJOBS</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Go to Top Link -->
+<a href="#" class="back-to-top"> <i class="lni-chevron-up"></i> </a>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{% static '/js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static '/js/jquery-migrate-3.0.1.js' %}"></script>
+<script src="{% static '/js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static '/js/jquery.easing.min.js' %}"></script>
+<script src="{% static '/js/wow.js' %}"></script>
+<script src="{% static '/js/nivo-lightbox.js' %}"></script>
+<script src="{% static 'js/mdb.min.js' %}"></script>
+
+</body>
+</html>

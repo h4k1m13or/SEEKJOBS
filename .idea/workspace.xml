@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74120ae1-fb86-4523-a810-69b2eb368837" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SEEKJOBS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cf82ad2a-f19a-4528-9a2a-aada0d2734b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cf82ad2a-f19a-4528-9a2a-aada0d2734b2/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hakim13or.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/collapse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/inlines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/prepopulate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/timeparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/cards-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/cards-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/chat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/stepper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/stepper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons-pro/timeline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/colors/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/line-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/line-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/main.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/accordion-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/accordion-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/charts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/lightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/megamenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/megamenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/parallax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/modules/parallax.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/nivo-lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/responsive.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/fonts/LineIcons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/fonts/LineIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/fonts/LineIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/fonts/LineIcons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/fonts/line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/about/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/about/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/about/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/about/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/art/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/art/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/background/bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/background/bg-pricing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/background/countdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/blog/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/blog/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/blog/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/google-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/lightbox/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/lightbox/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/lightbox/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/slider/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/slider/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/slider/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/svg/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/svg/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/team/team-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/team/team-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/team/team-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/team/team-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/team/team-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/team/team-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/img/test-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/addons-pro/stepper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/addons-pro/stepper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/addons-pro/timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/contact-form-script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/extention/choices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/extention/custom-materialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/extention/flatpickr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/form-validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery-migrate-3.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/jquery.slicknav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/mdb.lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/mdb.lite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/character-counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/chips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/collapsible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/default-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/material-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/mdb-autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/preloading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/range-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/sidenav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/modules/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/nivo-lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/popper.min (2).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/mdb-addons/mdb-lightbox-ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/mdb-addons/preloader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_countdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_custom-skin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_custom-styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_schedule.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_shortcode.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/_testimonial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/addons-pro/_cards-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/addons-pro/_chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/addons-pro/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/addons-pro/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/addons/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/colors/_presets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/_waves.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_animations-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/mdb.lite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/mdb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_accordion-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_autocomplete.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_cards-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_chips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_ecommerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_file-input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_material-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_scrollspy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_sidenav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_skins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_timelines.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/accordion-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/accordion-extended/accordion-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/cards-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/cards-extended/cards-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/charts/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/charts/charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/lightbox/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/lightbox/lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/megamenu/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/megamenu/megamenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/parallax/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/modules/parallax/parallax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/picker/_default-date.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/picker/_default-time.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/picker/_default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_magazine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_templates.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/pro/sections/_testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/scss/responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/blog-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/blog-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/ecommerce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/landing-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/login-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/profile-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/templates/signup-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/jquery.tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/af_ZA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ar_SA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/bn_BD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/de_AT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/dv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/en_CA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/en_GB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/es_MX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/fr_CH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/gd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/hi_IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/is_IS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ka_GE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/kab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/km_KH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ko_KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ku_IQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/mk_MK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ml_IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/mn_MN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/nb_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/si_LK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/sl_SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ta_IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/tg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/uk_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/zh_CN.GB2312.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/langs/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/codesample/plugin.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/css/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/items.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/menu_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/menu_check.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/progress.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/img/tabs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/tiny_mce_popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/utils/editable_selects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/utils/form_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/utils/mctabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/compat3x/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/example/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/example/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/example_dependency/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/help/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/help/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/layer/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/media/moxieplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/paste/plugin.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/print/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/spellchecker/plugin.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/table/plugin.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/AbsoluteLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Animations.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Arrows.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ButtonGroup.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Checkbox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ColorBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ColorButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ColorPicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ComboBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Container.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Content.Inline.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Content.Objects.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Content.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/CropRect.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/FieldSet.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/FitLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/FloatPanel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/FlowLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Icons.Ie7.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Iframe.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ImagePanel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/InfoBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Label.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ListBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Menu.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/MenuBar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/MenuButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/MenuItem.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Notification.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Progress.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Radio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ResizeHandle.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Scrollable.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/SelectBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Slider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Spacer.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/SplitButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/StackLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/TabPanel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/TextBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Throbber.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/TinyMCE.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/ToolTip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/Window.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/content.mobile.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.dev.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.ie7.dev.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.ie7.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.ie7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/skins/lightgray/skin.mobile.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/atomic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/bootstrap-atomic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/bootstrap-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/bootstrap-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/bootstrap-prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/bolt/prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/config/dent/depend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/scratch/compile/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/scratch/compile/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/scratch/inline/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/scratch/inline/theme.raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/demo/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/demo/html/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/demo/js/tinymce/inlite/Demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/Theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Bookmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Unlink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Uuid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Convert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/ElementMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Measure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/PredicateId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/SelectionMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/SkinLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/UrlType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/file/Conversions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/file/Picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/atomic/alien/ArrTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/atomic/alien/UuidTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/atomic/core/ConvertTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/atomic/core/MatcherTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/atomic/core/UrlTypeTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/ThemeTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/alien/BookmarkTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/alien/UnlinkTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/core/ActionsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/core/ElementMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/core/LayoutTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/core/MeasureTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/core/PredicateIdTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/core/SelectionMatcherTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/file/ConversionsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/src/test/js/browser/file/SelectionMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/inlite/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/mobile/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/themes/modern/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/tiny_mce_popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/tinymce.gzip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/utils/editable_selects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/utils/form_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/utils/mctabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/tinymce/js/tinymce/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SEEKJOBS/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0002_auto_20190509_0002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0003_auto_20190510_2030.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0004_auto_20190511_1630.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0005_auto_20190511_1630.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0006_auto_20190511_1938.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0007_auto_20190511_2010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0008_auto_20190512_0226.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0009_auto_20190513_1514.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0010_auto_20190513_1550.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0011_auto_20190515_0115.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0012_auto_20190515_0214.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0013_auto_20190515_0258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0014_auto_20190515_0301.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0015_auto_20190515_0302.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0016_auto_20190515_0357.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0017_auto_20190515_0357.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0018_auto_20190515_0402.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0019_auto_20190515_0405.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0020_auto_20190515_0410.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0021_auto_20190515_0440.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0022_auto_20190515_1557.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0023_auto_20190515_1607.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0024_auto_20190515_1607.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0025_auto_20190515_1607.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0026_auto_20190515_1614.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0027_remove_user_account_is_active.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0028_remove_user_account_user_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0029_auto_20190521_0219.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/resume.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/company_logos/Businessman_104px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/cards-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/cards-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/chat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/stepper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/stepper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons-pro/timeline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/colors/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/line-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/line-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/main.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/accordion-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/accordion-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/charts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/lightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/megamenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/megamenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/parallax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/modules/parallax.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/nivo-lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/responsive.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/fonts/LineIcons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/fonts/LineIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/fonts/LineIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/fonts/LineIcons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/fonts/line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/about/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/about/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/about/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/about/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/art/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/art/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/background/bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/background/bg-pricing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/background/countdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/blog/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/blog/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/blog/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/google-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/lightbox/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/lightbox/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/lightbox/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/slider/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/slider/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/slider/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/svg/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/svg/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/team/team-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/team/team-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/team/team-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/team/team-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/team/team-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/team/team-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/img/test-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/addons-pro/stepper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/addons-pro/stepper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/addons-pro/timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/contact-form-script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/extention/choices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/extention/custom-materialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/extention/flatpickr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/form-validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery-migrate-3.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.slicknav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/mdb.lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/mdb.lite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/character-counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/chips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/collapsible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/default-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/material-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/mdb-autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/preloading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/range-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/sidenav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/modules/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/nivo-lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/popper.min (2).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/mdb-addons/mdb-lightbox-ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/mdb-addons/preloader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_countdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_custom-skin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_custom-styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_schedule.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_shortcode.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/_testimonial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/addons-pro/_cards-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/addons-pro/_chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/addons-pro/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/addons-pro/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/addons/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/colors/_presets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/_waves.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_animations-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/mdb.lite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/mdb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_accordion-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_autocomplete.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_cards-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_chips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_ecommerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_file-input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_material-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_scrollspy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_sidenav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_skins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_timelines.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/accordion-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/accordion-extended/accordion-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/cards-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/cards-extended/cards-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/charts/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/charts/charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/lightbox/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/lightbox/lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/megamenu/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/megamenu/megamenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/parallax/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/modules/parallax/parallax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/picker/_default-date.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/picker/_default-time.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/picker/_default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_magazine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_templates.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/pro/sections/_testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/scss/responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/blog-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/blog-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/ecommerce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/landing-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/login-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/profile-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/templates/signup-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stats/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="main_jobs: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SEEKJOBS-master" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1P8mIZhDLfOsxeINx23yFUybNdA" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Buildout</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flowJavaScript</id>
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>Dockerfile</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Ini Files</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Markdown</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Pyramid</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>ReST</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567635947732" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hakim\Documents\SEEKJOBS-master\main\templates\main" />
+      <recent name="C:\Users\hakim\Documents\SEEKJOBS-master\staticfiles\css" />
+      <recent name="C:\Users\hakim\Desktop\SEEKJOBS-master\SEEKJOBS-master\main\templates\main" />
+      <recent name="C:\Users\hakim\Desktop\SEEKJOBS-master\SEEKJOBS-master\main" />
+      <recent name="C:\Users\hakim\Desktop\SEEKJOBS-master\SEEKJOBS-master\main\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hakim\Desktop\SEEKJOBS-master\SEEKJOBS-master\models" />
+      <recent name="C:\Users\hakim13or\Desktop\SEEKJOBS\main" />
+      <recent name="C:\Users\hakim13or\Desktop\SEEKJOBS\staticfiles\js" />
+      <recent name="C:\Users\hakim13or\Desktop\SEEKJOBS" />
+      <recent name="C:\Users\hakim13or\Desktop\SEEKJOBS\main\templates\main\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.SEEKJOBS">
+    <configuration name="backend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SEEKJOBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/backend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SEEKJOBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SEEKJOBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Entity-Recognition-In-Resumes-SpaCy-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Entity-Recognition-In-Resumes-SpaCy-master/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SEEKJOBS" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SEEKJOBS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="SEEKJOBS.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.SEEKJOBS" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.parser" />
+      <item itemvalue="Python.backend" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.parser" />
+        <item itemvalue="Python.backend" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74120ae1-fb86-4523-a810-69b2eb368837" name="Default Changelist" comment="" />
+      <created>1554976199223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554976199223</updated>
+      <workItem from="1565264027207" duration="4681000" />
+      <workItem from="1565311085029" duration="1435000" />
+      <workItem from="1565352433315" duration="4945000" />
+      <workItem from="1565472318382" duration="652000" />
+      <workItem from="1565547707209" duration="903000" />
+      <workItem from="1565570061996" duration="3349000" />
+      <workItem from="1565610819108" duration="865000" />
+      <workItem from="1565623224220" duration="599000" />
+      <workItem from="1565647895732" duration="3633000" />
+      <workItem from="1565698552135" duration="272000" />
+      <workItem from="1565719585696" duration="2106000" />
+      <workItem from="1565733882837" duration="4383000" />
+      <workItem from="1565788951995" duration="6084000" />
+      <workItem from="1565814939480" duration="7912000" />
+      <workItem from="1565890143519" duration="15814000" />
+      <workItem from="1565957086363" duration="1285000" />
+      <workItem from="1565976917491" duration="9803000" />
+      <workItem from="1566035565272" duration="23826000" />
+      <workItem from="1566131005116" duration="2555000" />
+      <workItem from="1566167513497" duration="10564000" />
+      <workItem from="1566214268491" duration="13741000" />
+      <workItem from="1566329703772" duration="8396000" />
+      <workItem from="1566389274842" duration="4042000" />
+      <workItem from="1566506973270" duration="3103000" />
+      <workItem from="1566594503123" duration="10843000" />
+      <workItem from="1566660799963" duration="1354000" />
+      <workItem from="1566752107802" duration="706000" />
+      <workItem from="1566768093426" duration="4705000" />
+      <workItem from="1566822121794" duration="2317000" />
+      <workItem from="1566864967598" duration="2635000" />
+      <workItem from="1566900601160" duration="2853000" />
+      <workItem from="1566930806403" duration="11432000" />
+      <workItem from="1566992487597" duration="4052000" />
+      <workItem from="1567031617546" duration="11089000" />
+      <workItem from="1567113092427" duration="3145000" />
+      <workItem from="1567123478712" duration="11059000" />
+      <workItem from="1567183335154" duration="6427000" />
+      <workItem from="1567242030310" duration="8359000" />
+      <workItem from="1567270639827" duration="4737000" />
+      <workItem from="1567430004755" duration="18349000" />
+      <workItem from="1567532144254" duration="4828000" />
+      <workItem from="1567612755121" duration="11750000" />
+      <workItem from="1567626580878" duration="8636000" />
+      <workItem from="1567714277241" duration="748000" />
+      <workItem from="1567789361023" duration="7154000" />
+      <workItem from="1567965238299" duration="682000" />
+      <workItem from="1567976763842" duration="8275000" />
+      <workItem from="1568055464688" duration="949000" />
+      <workItem from="1568195318738" duration="620000" />
+      <workItem from="1574156704311" duration="799000" />
+      <workItem from="1574276824772" duration="2500000" />
+      <workItem from="1574288723164" duration="4005000" />
+      <workItem from="1574605683492" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SEEKJOBS_master$train.coverage" NAME="train Coverage Results" MODIFIED="1565264825668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Entity-Recognition-In-Resumes-SpaCy-master" />
+    <SUITE FILE_PATH="coverage/SEEKJOBS_master$parser.coverage" NAME="parser Coverage Results" MODIFIED="1567443874776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/SEEKJOBS_master$backend.coverage" NAME="backend Coverage Results" MODIFIED="1566075299090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+  </component>
+</project>

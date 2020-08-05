@@ -1,0 +1,14 @@
+{
+  "addons": [
+  ],
+  "buildpacks": [
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "SEEKJOBS",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}

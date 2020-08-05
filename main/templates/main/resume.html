@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+{% load static %}
+{% load widget_tweaks %}
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ cv.user.get_full_name }}'s resume - SEEKJOBS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/mdb.min.css' %}">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="{% static '/fonts/line-icons.css' %}">
+     <link href="{% static '/css/fontawesome/css/all.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/css/fontawesome/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/slicknav.css' %}">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/nivo-lightbox.css' %}">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/animate.css' %}">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/responsive.css' %}">
+
+</head>
+<body>
+
+<!-- Header Area wrapper Starts -->
+<header id="header-wrap">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span> <span class="icon-menu"></span> <span
+                        class="icon-menu"></span> <span class="icon-menu"></span></button>
+                <a href="{% url 'main:homepage' %}" class="navbar-brand"><img src="{% static '/img/logo.png' %}"
+                                                                              alt="EWORK"></a></div>
+         <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item active"><a class="nav-link" href="{% url 'main:homepage' %}"> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:jobs' %}"> jobs </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'main:companies' %}"> companies </a></li>
+                    {% if candidate %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:recommendations' %}">
+                            recommendations </a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link nav-btn" href="{% url 'main:post-a-job' %}"><i class="fas fa-plus-circle"></i>
+                            post a
+                            job </a></li>
+                    {% endif %}
+
+                    {% if request.user.is_anonymous %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:register' %}"> <i class="fa fa-key"></i>register
+                        </a>
+                        </li>
+                    {% endif %}
+                    {% if not request.user.is_anonymous %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:dashboard' %}"> <i class="fa fa-user-tie"> </i>
+                             dashboard </a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:logout' %}"> <i class="fa fa-sign-out-alt"></i>
+                            Logout </a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'main:login' %}"> <i class="fa fa-sign-in-alt"></i> Login
+                        </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+            <li><a class="page-scrool" href="#header-wrap">Home</a></li>
+            <li><a class="page-scrool" href="#">Jobs</a></li>
+            <li><a class="page-scroll" href="#">Companies</a></li>
+            <li><a class="page-scroll" href="#">CV Models</a></li>
+            <li><a class="page-scroll" href="#">Post A Job</a></li>
+            <li><a class="page-scroll" href="#">Login</a></li>
+            <li><a class="page-scroll" href="/register">register</a></li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+    </nav>
+    <!-- Navbar End -->
+
+</header>
+<div class="resume justify-content-center">
+    <div class="resume-header "><img class="w-100 " src="{% static 'img/slider/slide1.jpg' %}"></div>
+    <div class="resume-inner">
+        <div class="candidate-head-left col-4"></div>
+        <div class=" candidate-detailes  col-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="shadow center ">
+                <div class="candidate-image  ">
+                    <img class="profile-picture wow fadeInUp" data-wow-delay="0.25s"
+                         src="{% static 'img/team/team-01.jpg' %}">
+                </div>
+                <h4 class="text-main-color wow fadeInLeft" data-wow-delay="0.3s">HAMIDET Hakim</h4>
+                <h5 class="text-info wow fadeInRight" data-wow-delay="0.3s"> Software engineer</h5>
+                <i class="fas fa-envelope text-main-color wow fadeInLeft" data-wow-delay="0.3s"> <a
+                        class="text-main-color" href="mailto:example@email.com"
+                        class="mark">{{ user.email }}</a></i><br>
+                <div class="social-network-pages  "><a href="http://twitter.com/nicole.wells"
+                                                       class="candidate-github wow fadeInRight" data-wow-delay="0.4s"><i
+                        class="fab fa-github fa-2x"></i></a> <a href="#" class="candidate-linkedin wow fadeInRight"
+                                                                data-wow-delay="0.5s"><i
+                        class="fab fa-linkedin-in fa-2x"></i></a> <a href="#"
+                                                                     class="candidate-stackoverflow wow fadeInRight"
+                                                                     data-wow-delay="0.6s"><i
+                        class="fab fa-stack-overflow fa-2x"></i></a></div>
+            </div>
+        </div>
+        <div class="candidate-head-right col-4 wow fadeInDown" data-wow-delay="0.2s">
+            <div class="candidate-location-published justify-content-around text-wrap">
+                <div class="location"><i class="fas fa-map-marker-alt text-main-color  "> {{ user.user_address }} </i>
+                </div>
+                <div class="join-date"><i class="fas fa-history text-main-color "> last login {{ user.last_login }}</i>
+                </div>
+            </div>
+            <br>
+            <button type="button" class="btn btn-outline-info text-secondary"><i class="fa fa-download"></i> Download CV
+            </button>
+        </div>
+    </div>
+    <div class="section-title-header">
+        <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> Candidate Resume </h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+    </div>
+    {% comment %} <div class=" bg-light default">
+        <ul class="nav justify-content-center card-body spacing">
+            <li class="nav-item navbar-link"><a class="nav-link text-secondary font-weight-bold"
+                                                href="#candidate-description"><i class="fa fa-briefcase"></i> Candidate
+                About</a></li>
+            <li class="nav-item navbar-link"><a class="nav-link text-secondary font-weight-bold"
+                                                href="#candidate-qualification"><i class="fa fa-graduation-cap"></i>
+                Education</a></li>
+            <li class="nav-item navbar-link"><a class="nav-link text-secondary font-weight-bold"
+                                                href="#candidate-experience"><i class="fa fa-chart-area"></i> Work
+                Experience</a></li>
+            <li class="nav-item navbar-link"><a class="nav-link text-secondary font-weight-bold"
+                                                href="#candidate-skills"><i class="fa fa-lightbulb"></i> Professional
+                Skills</a></li>
+            <li class="nav-item navbar-link"><a class="nav-link text-secondary font-weight-bold"
+                                                href="#candidate-awards"><i class="fas fa-certificate"></i> Awards</a>
+            </li>
+        </ul>
+    </div>{% endcomment %}
+
+</div>
+<section class="container  "
+         style="padding-bottom: 40px;padding-top: 20px; margin-left: 20px;margin-right: 20px; height: 600px ">
+    <div class="row justify-content-around h-100">
+        <div class="col-8 wow fadeInLeftBig" data-wow-delay="0.2s">
+            <embed src="{{ cv.resume_path.url }}" width="100%" height="100%"
+                   style="border: none;overflow: hidden; overflow-scrolling: touch;"/>
+        </div>
+        <div class="single-resume__sidebar-area col-3 card h-100 wow fadeInRightBig" data-wow-delay="0.2s">
+            <div class="single-resume__widget single-resume__overview text-center">
+                <h2 class="single-resume__widget--title">Candidate Overview</h2>
+                <ul class="single-resume__widget--content">
+                    <li>
+                        <div class="single-resume-overview__detail">
+                            <div class="single-resume-overview__detail--icon"><i class="la la-sliders"></i></div>
+                            <div class="single-resume-overview__detail--content">
+                                <h6>Experience</h6>
+                                <div class="single-resume-overview__detail-content--value">
+                                    <ul>
+                                        <li>
+                                            <p class="text-info">{{ cv.experience }}</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-resume-overview__detail">
+                            <div class="single-resume-overview__detail--icon"><i class="la la-hourglass-2"></i></div>
+                            <div class="single-resume-overview__detail--content">
+                                <h6>Age</h6>
+                                <div class="single-resume-overview__detail-content--value">
+                                    <ul>
+                                        <li><p class="text-info">28-33
+                                            Years</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="single-resume-overview__detail">
+                            <div class="single-resume-overview__detail--icon"><i class="la la-mars-double"></i></div>
+                            <div class="single-resume-overview__detail--content">
+                                <h6>Gender</h6>
+                                <div class="single-resume-overview__detail-content--value">
+                                    <ul>
+                                        <li><p class="text-info">{{ user.gender }}</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-resume-overview__detail">
+                            <div class="single-resume-overview__detail--icon"><i class="la la-graduation-cap"></i></div>
+                            <div class="single-resume-overview__detail--content">
+                                <h6>Education Level</h6>
+                                <div class="single-resume-overview__detail-content--value">
+                                    <ul>
+                                        <li>
+                                            <p class="text-info bold">{{ cv.education }}</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section Start -->
+<footer class="footer-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+                <h3><img src="{% static '/img/logo.png' %}" alt=""></h3>
+                <p> Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis
+                    nostrud ncididunt. </p>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">CV Models</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+                <h3>RECENT POSTS</h3>
+                <ul class="image-list">
+                    <li>
+                        <figure class="overlay"><img class="img-fluid" src="{% static '/img/art/a1.jpg' %}" alt="">
+                        </figure>
+                        <div class="post-content">
+                            <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
+                            <div class="meta"><span class="date">October 12, 2018</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="overlay"><img class="img-fluid" src="{% static '/img/art/a2.jpg' %}" alt="">
+                        </figure>
+                        <div class="post-content">
+                            <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
+                            <div class="meta"><span class="date">October 12, 2018</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+                <h3>SUBSCRIBE US</h3>
+                <div class="widget">
+                    <div class="newsletter-wrapper">
+                        <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                            <div class="form-group is-empty">
+                                <input type="email" value="" name="Email" class="form-control" id="EMAIL"
+                                       placeholder="Your email" required="">
+                                <button type="submit" name="subscribe" id="subscribes" class="btn btn-common sub-btn"><i
+                                        class="lni-pointer"></i></button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.widget -->
+                <div class="widget">
+                    <h5 class="widget-title">FOLLOW US ON</h5>
+                    <ul class="footer-social">
+                        <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
+                        <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="site-info">
+                    <p>© Designed and Developed by <a href="#" rel="nofollow">SEEKJOBS</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Go to Top Link -->
+<a href="#" class="back-to-top"> <i class="lni-chevron-up"></i> </a>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{% static '/js/jquery-min.js' %}"></script>
+<script src="{% static '/js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/mdb.min.js' %}"></script>
+<script src="{% static '/js/jquery.nav.js' %}"></script>
+<script src="{% static '/js/jquery.easing.min.js' %}"></script>
+<script src="{% static '/js/wow.js' %}"></script>
+<script src="{% static '/js/jquery.slicknav.js' %}"></script>
+<script src="{% static '/js/nivo-lightbox.js' %}"></script>
+<script src="{% static '/js/main.js' %}"></script>
+<script src="{% static '/js/form-validator.min.js' %}"></script>
+<script src="{% static '/js/contact-form-script.min.js' %}"></script>
+</body>
+</html>
